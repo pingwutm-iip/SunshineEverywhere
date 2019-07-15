@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:sharedUserId="android.uid.system"
         android:theme="@style/AppTheme">
-        <activity android:name=".Old_2_2"></activity>
-        <activity android:name=".Preference"></activity>
-        <activity android:name=".Lauch"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.release.SunshineEverywhere.Old_2_2"></activity>
+        <activity android:name="com.release.SunshineEverywhere.Preference"></activity>
+        <activity android:name="com.release.SunshineEverywhere.Lauch"></activity>
+        <activity android:name="com.release.SunshineEverywhere.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,10 +1,6 @@
-package com.release.yps00;
+package com.release.SunshineEverywhere;
 
 import android.content.Context;
-import android.util.Log;
-
-import java.io.File;
-import java.io.IOException;
 
 public class PersonalInformation extends FileService {
 

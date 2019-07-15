@@ -1,9 +1,11 @@
-package com.release.yps00;
+package com.release.SunshineEverywhere;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.release.yps00.R;
 
 public class Old_2_2 extends AppCompatActivity {
 

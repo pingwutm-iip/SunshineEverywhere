@@ -1,4 +1,4 @@
-package com.release.yps00;
+package com.release.SunshineEverywhere;
 
 import java.io.File;
 import java.io.FileInputStream;
