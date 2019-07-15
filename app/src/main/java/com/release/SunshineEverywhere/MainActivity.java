@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.release.yps00.R;
+import com.release.SunshineEverywhere.R;
 
 import java.io.File;
 
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         YPS_Button_StartAPP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                File data = new File("data/data/com.release.yps00/files/PersonalInformation.dbs");
+                File data = new File("data/data/com.release.SunshineEverywhere/files/PersonalInformation.dbs");
                 if (data.exists()) {
                     byte[] buffer = fileOperate.readFile(data.getName());
                     String buf = new String(buffer);
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                         start += "\n".length();
                         count++;
                     }
-                    System.out.println(count + "---------------------------------------------------------------------------------");
+                    //System.out.println(count + "---------------------------------------------------------------------------------");
                     if (count == 0) {
                         Intent intent = new Intent(MainActivity.this, Lauch.class);
                         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

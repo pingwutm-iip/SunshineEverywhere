@@ -13,7 +13,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 
-import com.release.yps00.R;
+import com.release.SunshineEverywhere.R;
 
 import java.util.ArrayList;
 

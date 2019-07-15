@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.release.yps00.R;
+import com.release.SunshineEverywhere.R;
 
 public class Old_2_2 extends AppCompatActivity {
 

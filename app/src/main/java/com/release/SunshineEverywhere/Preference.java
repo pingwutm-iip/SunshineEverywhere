@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
-import com.release.yps00.R;
+import com.release.SunshineEverywhere.R;
 
 public class Preference extends AppCompatActivity {
 
