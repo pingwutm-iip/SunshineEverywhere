@@ -117,7 +117,7 @@ public class Preference extends AppCompatActivity {
         });
     }
 
-    private void setRadioButton(){
+    private void setRadioButton() {
         RadioGroup radiogroup = findViewById(R.id.radioGroup1);
         final RadioButton radio1 = findViewById(R.id.radioButton15);
         final RadioButton radio2 = findViewById(R.id.radioButton16);
@@ -130,13 +130,13 @@ public class Preference extends AppCompatActivity {
                 if (checkedId == radio1.getId()) {
                     preferences = (short) (preferences << 2);
                     preferences += 0;
-                } else if(checkedId == radio2.getId()){
+                } else if (checkedId == radio2.getId()) {
                     preferences = (short) (preferences << 2);
                     preferences += 1;
-                }else if(checkedId == radio3.getId()) {
+                } else if (checkedId == radio3.getId()) {
                     preferences = (short) (preferences << 2);
                     preferences += 2;
-                }else if(checkedId == radio4.getId()) {
+                } else if (checkedId == radio4.getId()) {
                     preferences = (short) (preferences << 2);
                     preferences += 3;
                 }

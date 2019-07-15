@@ -17,7 +17,7 @@ public class FileService {
 
     public boolean saveToRom(String data, String fileName) {
         try {
-            FileOutputStream fos = context.openFileOutput(fileName, Context.MODE_PRIVATE|Context.MODE_APPEND);
+            FileOutputStream fos = context.openFileOutput(fileName, Context.MODE_PRIVATE | Context.MODE_APPEND);
             //System.out.println("debug03-----------------------------------------------------------------");
             fos.write(data.getBytes());
             //System.out.println("debug04-----------------------------------------------------------------");

@@ -73,17 +73,17 @@ public class Lauch extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 adapterView.setVisibility(View.VISIBLE);
                 String result = Age_adapter.getItem(i);
-                if(result.equals("10岁及以下"))
+                if (result.equals("10岁及以下"))
                     age_type = 0;
-                else if(result.equals("10~18岁"))
+                else if (result.equals("10~18岁"))
                     age_type = 1;
-                else if(result.equals("19~30岁"))
+                else if (result.equals("19~30岁"))
                     age_type = 2;
-                else if(result.equals("31~40岁"))
+                else if (result.equals("31~40岁"))
                     age_type = 3;
-                else if(result.equals("41~50岁"))
+                else if (result.equals("41~50岁"))
                     age_type = 4;
-                else if(result.equals("51~60岁"))
+                else if (result.equals("51~60岁"))
                     age_type = 5;
                 else
                     age_type = 6;
@@ -100,11 +100,11 @@ public class Lauch extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 adapterView.setVisibility(View.VISIBLE);
                 String result = Grade_adapter.getItem(i);
-                if(result.equals("本科生"))
+                if (result.equals("本科生"))
                     grade_type = 0;
-                else if(result.equals("研究生"))
+                else if (result.equals("研究生"))
                     grade_type = 1;
-                else if(result.equals("博士生"))
+                else if (result.equals("博士生"))
                     grade_type = 2;
                 else
                     grade_type = 3;
@@ -121,7 +121,7 @@ public class Lauch extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 adapterView.setVisibility(View.VISIBLE);
                 String result = Grade_adapter.getItem(i);
-                if(result.equals("信息学院"))
+                if (result.equals("信息学院"))
                     faculty_type = 0;
                 else
                     faculty_type = 1;

@@ -16,15 +16,15 @@ public class PersonalInformation extends FileService {
         super(context);
     }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
-    public void setPreferences(short preferences){
+    public void setPreferences(short preferences) {
         this.preferences = preferences;
     }
 
-    public short ChangeInformation(int age_type, int sex_type, int grade_type, int faculty_type){
+    public short ChangeInformation(int age_type, int sex_type, int grade_type, int faculty_type) {
         information += age_type;
         information = (short) (information << 3);
         information += sex_type;
@@ -35,7 +35,7 @@ public class PersonalInformation extends FileService {
         return information;
     }
 
-    public short ChangePreferences(int arg01, int arg02, int arg03, int arg04){
+    public short ChangePreferences(int arg01, int arg02, int arg03, int arg04) {
         preferences += arg01;
         preferences = (short) (preferences << 4);
         preferences += arg02;
@@ -46,7 +46,7 @@ public class PersonalInformation extends FileService {
         return preferences;
     }
 
-    public void InputInformation(){
+    public void InputInformation() {
         saveToRom(String.valueOf(information) + "\n" + name + "\n", "PersonalInformation.dbs");
     }
 
@@ -54,9 +54,18 @@ public class PersonalInformation extends FileService {
         saveToRom(String.valueOf(preferences) + "\n", "PersonalInformation.dbs");
     }
 
-    public void UpdateName(String new_name){ }
-    public void UpdateAge(int type){ }
-    public void UpdateSex(int type){ }
-    public void UpdateGrade(int type){ }
-    public void UpdateFaculty(int type){ }
+    public void UpdateName(String new_name) {
+    }
+
+    public void UpdateAge(int type) {
+    }
+
+    public void UpdateSex(int type) {
+    }
+
+    public void UpdateGrade(int type) {
+    }
+
+    public void UpdateFaculty(int type) {
+    }
 }
