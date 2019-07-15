@@ -22,11 +22,11 @@ public class PersonalInformation extends FileService {
 
     public short ChangeInformation(int age_type, int sex_type, int grade_type, int faculty_type) {
         information += age_type;
-        information = (short) (information << 3);
-        information += sex_type;
         information = (short) (information << 1);
-        information += grade_type;
+        information += sex_type;
         information = (short) (information << 2);
+        information += grade_type;
+        information = (short) (information << 4);
         information += faculty_type;
         return information;
     }
