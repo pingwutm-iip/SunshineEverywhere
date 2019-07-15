@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Yps00</string>
+    <string name="YPS_PersonalName">昵称</string>
+    <string name="YPS_Age">年龄</string>
+    <string name="YPS_Sex">性别</string>
+    <string name="YPS_Major">学院</string>
+    <string name="YPS_Grade">年级</string>
+    <string name="YPS_Input_PersonalName">请输入昵称...</string>
+    <string name="YPS_Input_Age">请输入年龄...</string>
+    <string name="YPS_Input_Sex">请输入性别...</string>
+    <string name="YPS_Input_Major">请输入专业...</string>
+    <string name="YPS_Input_Grade">请输入年级...</string>
+</resources>
