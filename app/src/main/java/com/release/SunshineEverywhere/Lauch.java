@@ -23,7 +23,7 @@ public class Lauch extends AppCompatActivity {
     String name = "";
     int age_type = 0;
     int sex_type = 0;
-    int grade_type = 1;
+    int grade_type = 0;
     int faculty_type = 0;
     //short information = 0;
 
