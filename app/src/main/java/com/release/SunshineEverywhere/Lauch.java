@@ -52,7 +52,7 @@ public class Lauch extends AppCompatActivity {
         Grade_list.add("博士生");
         Grade_list.add("博士后");
 
-        Faculty_list.add("信息学院");
+        Faculty_list.add("生物医学工程与仪器学院");
         Faculty_list.add("计算机科学与技术学院");
 
         final ArrayAdapter<String> Age_adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, Age_list);
