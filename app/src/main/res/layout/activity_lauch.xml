@@ -168,12 +168,12 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@mipmap/yps_lauch_2"
-        android:layout_weight="4.5" />
+        android:layout_weight="4.5"
+        android:background="@mipmap/yps_lauch_2" />
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_heightmatch_parent"
+        android:layout_height="match_parent"
         android:layout_weight="1.2"
         android:gravity="right|top">
 
